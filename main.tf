@@ -4,9 +4,9 @@ resource "aws_instance" "web" {
   availability_zone = var.availability_zone
 
   tags = {
-    Name  = "project1-server"
+    Name  = "project1-tf-cloud"
     Owner = "team4-techups"
-    Env   = "sandbox"
+    Env   = "stagging"
     App   = "etech-crew"
   }
 }
